@@ -1,6 +1,5 @@
 //import { Auth0Provider } from "@auth0/auth0-react";
 //import { useAuth0 } from "@auth0/auth0-react";
-import logoCuadrado from "../assets/logoCuadrado.svg";
 import { Footer } from "../components/Footer";
 
 import React from "react";
@@ -35,15 +34,10 @@ function Login() {
 
   return (
     <div className=" h-screen bg-black bg-repeat-y">
-      <div className="max-w-md mx-auto  bg-black p-10 mb-4 ">
+      <div className="max-w-md mx-auto  bg-black p-10 mb-16">
         <h1 className="text-2xl font-semibold text-white mb-3 text-center">
           Log in
         </h1>
-        <img
-          className="w-21 h-21 box-border px-3 py-3 "
-          src={logoCuadrado}
-          alt="Logo"
-        />
         <div className="bg-slate-800 p-10 mb-4 rounded-xl authButtons basis-1/4 border-4 flex flex-col items-center justify-center">
           <h3 className="text-lg font-bold text-white text-center">Email: </h3>
           <input
